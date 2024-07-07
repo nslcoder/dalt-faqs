@@ -3,7 +3,7 @@
 client_id = "5bf313c1981f6dc91e49af1c0ededac0"
 name = "Dalt FAQs"
 handle = "dalt-faqs"
-application_url = "https://held-reductions-players-dod.trycloudflare.com"
+application_url = "https://jm-follows-stopped-italia.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_files,read_orders,write_files,write_products"
 
 [auth]
 redirect_urls = [
-  "https://held-reductions-players-dod.trycloudflare.com/auth/callback",
-  "https://held-reductions-players-dod.trycloudflare.com/auth/shopify/callback",
-  "https://held-reductions-players-dod.trycloudflare.com/api/auth/callback"
+  "https://jm-follows-stopped-italia.trycloudflare.com/auth/callback",
+  "https://jm-follows-stopped-italia.trycloudflare.com/auth/shopify/callback",
+  "https://jm-follows-stopped-italia.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
