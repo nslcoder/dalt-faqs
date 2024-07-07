@@ -33,10 +33,16 @@
     "@shopify/shopify-api": "^11.0.1",
     "@shopify/shopify-app-remix": "^3.0.1",
     "@shopify/shopify-app-session-storage-prisma": "^5.0.1",
+    "i18next": "^23.11.5",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-fs-backend": "^2.3.1",
+    "i18next-http-backend": "^2.5.2",
     "isbot": "^5.1.0",
     "prisma": "^5.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.2",
+    "remix-i18next": "^6.1.0",
     "vite-tsconfig-paths": "^4.3.1"
   },
   "devDependencies": {

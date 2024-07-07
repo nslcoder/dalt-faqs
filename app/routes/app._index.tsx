@@ -16,6 +16,7 @@ import {
 } from "@shopify/polaris";
 import { TitleBar, useAppBridge } from "@shopify/app-bridge-react";
 import { authenticate } from "../shopify.server";
+import { useTranslation } from "react-i18next";
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   await authenticate.admin(request);
@@ -103,6 +104,7 @@ export default function Index() {
     "gid://shopify/Product/",
     "",
   );
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (productId) {
@@ -121,6 +123,7 @@ export default function Index() {
       <BlockStack gap="500">
         <Layout>
           <Layout.Section>
+            <Text as="h3">{t("greeting")}</Text>
             <Card>
               <BlockStack gap="500">
                 <BlockStack gap="200">

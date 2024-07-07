@@ -3,7 +3,7 @@
 client_id = "5bf313c1981f6dc91e49af1c0ededac0"
 name = "Dalt FAQs"
 handle = "dalt-faqs"
-application_url = "https://mason-pan-linux-mill.trycloudflare.com"
+application_url = "https://held-reductions-players-dod.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://mason-pan-linux-mill.trycloudflare.com/auth/callback",
-  "https://mason-pan-linux-mill.trycloudflare.com/auth/shopify/callback",
-  "https://mason-pan-linux-mill.trycloudflare.com/api/auth/callback"
+  "https://held-reductions-players-dod.trycloudflare.com/auth/callback",
+  "https://held-reductions-players-dod.trycloudflare.com/auth/shopify/callback",
+  "https://held-reductions-players-dod.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
